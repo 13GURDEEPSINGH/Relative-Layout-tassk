@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Singapore"
+        android:textSize="30sp"
+        android:id="@+id/tvs"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvs"
+        android:text="Camera"
+        android:textSize="25sp"
+        android:id="@+id/tvCamera"
+        />
+
+    <EditText
+        android:id="@+id/ets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/tvCamera"
+        android:layout_alignBaseline="@+id/tvCamera"
+        android:hint="sony"
+        android:layout_marginHorizontal="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Setting"
+        android:id="@+id/tvSetting"
+        android:textSize="30sp"
+        android:layout_below="@+id/tvCamera"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="xyz"
+        android:id="@+id/etXyz"
+        android:layout_toRightOf="@+id/tvSetting"
+        android:layout_alignBaseline="@+id/tvSetting"
+        android:layout_marginHorizontal="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SINGAPORE is a city of lions______"
+        android:id="@+id/tvSingapore"
+        android:textSize="30sp"
+        android:layout_below="@+id/tvSetting"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UPLOAD"
+        android:id="@+id/btnUpload"
+        android:textSize="20sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DISCARD"
+        android:id="@+id/btndiscard"
+        android:textSize="20sp"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/btnUpload"/>
+
+
+
+
+
+
+
+
+</RelativeLayout>
